@@ -434,3 +434,19 @@ input { height: 50px; }
 .padding-15 {
   padding: 15px !important;
 }
+
+.padding-t-15 {
+  padding-top: 15px !important;
+}
+
+.padding-l-15 {
+  padding-left: 15px !important;
+}
+
+.padding-r-15 {
+  padding-right: 15px !important;
+}
+
+.padding-b-15 {
+  padding-bottom: 15px !important;
+}
