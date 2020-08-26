@@ -101,12 +101,18 @@ hr {
  .tm-home-subtitle {
   text-transform: uppercase;
  }
-.tm-home-title { font-size: 60px; }
+.tm-home-title { 
+  font-size: 60px; 
+  color: #FFF;
+}
 .tm-home-subtitle {
-  color: #0f4c75;
+  color: #FFF;
   font-weight: bold;
   padding-bottom: 40px;
   letter-spacing: 2px;
+}
+.tm-home-summary {
+  color: #FFFFFF;
 }
 .tm-view-more-btn {
   background: #3282b8;
@@ -324,10 +330,11 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/about-bg.jpg');
+  background: url('../images/about-bg-1.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  background-position-y: 20px;
   padding-top: 60px;
   padding-bottom: 100px;
 }
