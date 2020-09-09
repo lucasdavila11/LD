@@ -446,7 +446,29 @@ input { height: 50px; }
   .templatemo-home {
     background-attachment: scroll;
   }
+
 }
+
+
+/* START MEDIA 450px */
+@media screen and (max-width:450px){
+  .tm-work {
+    background: no-repeat linear-gradient( rgba(0, 0, 0, -1.5), rgba(0, 0, 0, 0.3) ), #3282b8;
+    background-attachment: fixed;
+  }
+
+  .tm-about {
+    background: no-repeat linear-gradient( rgba(0, 0, 0, -1.5), rgba(0, 0, 0, 0.3) ), #3282b8;
+    background-attachment: fixed;
+  }
+
+
+  .t-darkest-mobile {
+    color: #1b262c !important;
+  }
+}
+/* END MEDIA 450px */
+
 
 /* START MEDIA 980 */
 @media screen and (max-width:980px){
