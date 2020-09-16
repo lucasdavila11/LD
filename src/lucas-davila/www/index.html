@@ -14,13 +14,9 @@
 	<link rel="stylesheet" href="css/templatemo-style.css">
 	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
 	<script src="https://kit.fontawesome.com/846ea941d9.js" crossorigin="anonymous"></script>
-<!-- 
 
-Ultra Profile
+	<link rel="stylesheet" href="css/animate.css">
 
-https://templatemo.com/tm-464-ultra-profile
-
--->
 </head>
 <body data-spy="scroll" data-target="#rock-navigation">
 	<!-- START NAVIGATION -->
@@ -42,7 +38,7 @@ https://templatemo.com/tm-464-ultra-profile
 					<li><a href="#work" class="smoothScroll">My Work</a></li>
 					<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
 					<li><a href="#skills" class="smoothScroll">Skills</a></li>
-					<li><a href="#about" class="smoothScroll">About</a></li>
+					<li><a href="#about" class="smoothScroll">About Me</a></li>
 					<li><a href="#contact" class="smoothScroll">Contact</a></li>
 				</ul>
 			</nav>
@@ -58,14 +54,30 @@ https://templatemo.com/tm-464-ultra-profile
 				<div class="col-md-2 col-sm-1"></div>
 				<div class="col-md-8 col-sm-10">
 					<h1 class="tm-home-title"><strong>Lucas D'Avila</strong></h1>
-					<h2 class="tm-home-subtitle">Software Engineer</h2>
-					<p class="tm-home-summary">
-						I'm your next professional <strong>Full-Stack Developer</strong>. Whether it's creating modern and responsive UIs for 
-						<strong>Web</strong> or developing a highly efficient and scalable <strong>Backend</strong>.
-					</p>
-					<p class="tm-home-summary">
-						I'm your man.
-					</p>
+
+					<div class="titles tm-home-subtitle">
+						<ul class="texts" style="display: none;">
+							<li class="current">Full-Stack Software Developer</li>
+							<li class="">Full-Time Nerd</li>
+							<li class="">Self-Starting Game Developer</li>
+							<li class="">Traveler</li>
+							<li class="">Slurper of Noodles</li>
+							<li class="">Snowboarder</li>
+							<li class="">Your next employee?</li>
+						</ul>
+					</div>
+
+					<!-- <div class="is-hidden">
+						<p class="tm-home-summary">
+							I'm your next professional <strong>Full-Stack Developer</strong>. Whether it's creating modern and responsive UIs for 
+							<strong>Web</strong> or developing a highly efficient and scalable <strong>Backend</strong>.
+						</p>
+						<p class="tm-home-summary">
+							I'm your man.
+						</p>
+					</div> -->
+
+					
 					<a href="#timeline" class="btn btn-default smoothScroll tm-view-more-btn">Let's Begin</a>
 				</div>
 				<div class="col-md-2 col-sm-1"></div>
@@ -73,6 +85,7 @@ https://templatemo.com/tm-464-ultra-profile
 		</div>
 	</section>
 	<!-- END HOME -->
+
 
 	<!-- START TIMELINE-->
 	<section id="timeline" class="tm-timeline tm-padding-top-bottom-100">
@@ -90,7 +103,17 @@ https://templatemo.com/tm-464-ultra-profile
 									<h4 class="subtitle"><em>June 2019 - Present</em></h4>
 								</div>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+									At Koder, I've lead scrum teams that varied in size, between 3-6 developers.  Following Agile methodologies, my intent was to lead my team with both technical growth and efficiency in mind.
+									And as a part of my role, I was assigned the responsibility to design and architect various features on a number of different projects.
+								</p>
+								<p></p>
+								<p class="description">
+									On the technical side, my role was that of a .NET Full-Stack Developer.  For Frontend development, I would assist in implementing various layouts, extending themes to create reusable UI components, and utilizing JQuery and JS
+									to properly interact with our APIs.
+								</p>
+								<p></p>
+								<p class="description">
+									As for the Backend, I designed and built various API endpoints using RESTful standards in C#.  These APIs would then follow either a CQRS or CRUD architecture with to interact with our MSSQL
                                 </p>
                             </div>
 						</div>
@@ -99,14 +122,20 @@ https://templatemo.com/tm-464-ultra-profile
                             <div class="timeline-content">
                                 <div class="title padding-b-20">
 									<h3>B.S Computer Science</h3>
-									<h5 class="subtitle bold"><strong>Graduated Cum Laude</strong></h5>
+									<h5 class="subtitle bold"><strong>Graduated Cum Laude, GPA: 3.7</strong></h5>
 									<h4 class="subtitle bold">California State University, Long Beach</h4>
 									<h4 class="subtitle"><em>September 2016 - May 2019</em></h4>
 									
 								</div>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
-                                </p>
+									While attending CSULB, I was the Vice President of the Ski & Snowboarding Team.  During my time, I organized and managed payment plans for students while booking 
+									club events for the entire snow season.
+								</p>
+								<p></p>
+								<p class="description">
+									While attending CSULB, I was the Vice President of the Ski & Snowboarding Team.  During my time, I organized and managed payment plans for students while booking 
+									club events for the entire snow season.
+								</p>
                             </div>
 						</div>
 						<div class="timeline">
@@ -548,12 +577,16 @@ https://templatemo.com/tm-464-ultra-profile
 		</div>
 	</section>
 	<!-- END CONTACT -->
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/jquery.nav.js"></script>
-	<script src="js/isotope.js"></script>
-	<script src="js/imagesloaded.min.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="js/lib/jquery.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+	<script src="js/lib/smoothscroll.js"></script>
+	<script src="js/lib/jquery.nav.js"></script>
+	<script src="js/lib/isotope.js"></script>
+	<script src="js/lib/imagesloaded.min.js"></script>
+	<script src="js/lib/custom.js"></script>
+	<script src="js/lib/jquery.fittext.js"></script>
+	<script src="js/lib/jquery.lettering.js"></script>
+	<script src="js/lib/jquery.textillate.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
