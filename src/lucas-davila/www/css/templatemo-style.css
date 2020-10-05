@@ -282,7 +282,7 @@ hr {
 }
 
 .modal {
-  top: 20%;
+  top: 15%;
 }
 
 .modal-body {
@@ -291,8 +291,8 @@ hr {
 
 .modal-title {
   color: #303030;
-  font-size: 50px;
-  padding-bottom: 20px;
+  font-size: 35px;
+  padding-bottom: 5px;
   text-transform: uppercase;
 }
 
@@ -301,14 +301,37 @@ hr {
 }
 
 .modal-text-overlay {
-  max-height: 460px;
+  max-height: 650px;
 }
 
 .modal-text {
   overflow: scroll;
-  max-height: 350px;
+  max-height: 400px;
 
 }
+
+.modal-btn {
+  background: #0f4c75;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: auto;
+  padding: 10px 30px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+  width: 50%;
+  
+}
+.modal-btn:hover {
+  background: #ffffff;
+  color: #0f4c75;
+  border: #0f4c75 1px solid;
+}
+
 
 /* MODAL RESPONSIVE CSS */
 @media screen and (max-device-width: 414px) {
@@ -319,6 +342,16 @@ hr {
 
   .modal-dialog {
     margin: 15px 10px;
+  }
+
+  .modal-text-overlay {
+    max-height: 400px;
+  }
+  
+  .modal-text {
+    overflow: scroll;
+    max-height: 220px;
+  
   }
 
 }
@@ -332,6 +365,16 @@ hr {
 
   .modal-dialog {
     margin: 15px auto;
+  }
+
+  .modal-text-overlay {
+    max-height: 400px;
+  }
+  
+  .modal-text {
+    overflow: scroll;
+    max-height: 220px;
+  
   }
 
 }
