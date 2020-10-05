@@ -611,6 +611,9 @@ input { height: 50px; }
     background-attachment: fixed;
   }
 
+  .t-lightest-mobile {
+    color: #FFF !important;
+  }
 
   .t-darkest-mobile {
     color: #1b262c !important;
